@@ -1,5 +1,6 @@
 import CategoryBtn from './components/CategoryBtn';
 import Header from './components/Header';
+import Main from './components/Main';
 import './css/main.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="container">
         <Header/>
         <CategoryBtn/>
+        <Main/>
     </div>
     )
 }
