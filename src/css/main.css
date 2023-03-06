@@ -40,12 +40,10 @@ h1 {
   margin-right: 1rem;
   cursor: pointer;
 }
-
-.categorybtn:hover {
+.categorybtn .categorybtn:hover {
   color: var(--lightblue);
 }
-
-.categorybtn:active {
+.categorybtn .categorybtn:active {
   background-color: var(--lightblue);
   color: var(--white);
   transition: ease-in-out 0.2s;
@@ -62,11 +60,9 @@ main {
   border-top: 8px solid var(--lightblue);
   color: var(--gray);
 }
-
 main p {
   max-width: 80%;
 }
-
 main h2 {
   font-weight: 600;
 }
@@ -79,8 +75,7 @@ main h2 {
   transition: ease-in-out 0.2s;
   border: none;
 }
-
-.active:hover {
+.active .active:hover {
   color: var(--white);
 }
 
