@@ -1,9 +1,13 @@
+import CategoryBtn from './components/CategoryBtn';
 import Header from './components/Header';
 import './css/main.css';
 
 function App() {
     return (
-    <Header/>
+    <div className="container">
+        <Header/>
+        <CategoryBtn/>
+    </div>
     )
 }
 
