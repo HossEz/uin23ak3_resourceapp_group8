@@ -95,4 +95,4 @@ const resources = [
     },
 ]
 
-export default Ressurser
+export default resources

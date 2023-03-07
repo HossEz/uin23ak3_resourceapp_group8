@@ -50,16 +50,13 @@ h1 {
   transition: ease-in-out .2s;
   border: none;
 }
+
+
 .category-content a {
   color: var(--lightblue);
 }
 
-main {
-  padding: 2rem;
-  border: 1px solid var(--lightergray);
-  border-top: 8px solid var(--lightblue);
-  color: var(--gray);
-}
+
 main p {
   max-width: 80%;
 }
@@ -78,4 +75,12 @@ main h2 {
 }
 .active:hover{
   color: var(--white);
+}
+
+
+.penger{
+  padding: 2rem;
+  border: 1px solid var(--lightergray);
+  border-top: 8px solid var(--lightblue);
+  color: var(--gray);
 }

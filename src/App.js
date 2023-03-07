@@ -1,14 +1,14 @@
-import CategoryBtn from './components/CategoryBtn';
+import { BrowserRouter as Router, Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import Header from './components/Header';
-import Main from './components/Main';
+import ResourceList from './components/ResourceList';
 import './css/main.css';
+import resources from './components/Resources';
 
 function App() {
     return (
     <div className="container">
         <Header/>
-        <CategoryBtn/>
-        <Main/>
+        <ResourceList resources={resources} />
     </div>
     )
 }
