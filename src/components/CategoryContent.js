@@ -1,16 +1,22 @@
-// CategoryContent.js
+import React from 'react';
 
-import Resource from "./Resource";
-
-function CategoryContent({ category, resources }) {
-  const filteredResources = resources.filter(
-    (resource) => resource.category === category
-  );
+function CategoryContent(props) {
+  const { resources } = props;
 
   return (
-    <div className="penger">
-      {filteredResources.map((resource, index) => (
-        <Resource key={index} {...resource} />
+    <div className="category-content">
+      {resources.map((resource, index) => (
+        <div key={index}>
+          <h2>{resource.title}</h2>
+          <p>{resource.category}</p>
+          <ul>
+            <li>
+              <a href={resource.url} target="_blank">
+                {resource.title}
+              </a>
+            </li>
+          </ul>
+        </div>
       ))}
     </div>
   );
