@@ -45,7 +45,7 @@ h1 {
     color: var(--lightblue);
   }
   
-  .categorybtn:active {
+  &:active {
     background-color: var(--lightblue);
     color: var(--white);
     transition: ease-in-out .2s;
@@ -98,10 +98,3 @@ main {
   }
 }
 
-
-.penger{
-  padding: 2rem;
-  border: 1px solid var(--lightergray);
-  border-top: 8px solid var(--lightblue);
-  color: var(--gray);
-}

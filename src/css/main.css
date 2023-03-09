@@ -43,7 +43,7 @@ h1 {
 .categorybtn:hover {
   color: var(--lightblue);
 }
-.categorybtn .categorybtn:active {
+.categorybtn:active {
   background-color: var(--lightblue);
   color: var(--white);
   transition: ease-in-out 0.2s;
