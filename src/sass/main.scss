@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
 
 :root {
   --lightblue:#25DFE6;
@@ -40,29 +40,37 @@ h1 {
   transition: ease-in-out .2s;
   margin-right: 1rem;
   cursor: pointer;
-}
-.categorybtn:hover {
-  color: var(--lightblue);
-}
-.categorybtn:active {
-  background-color: var(--lightblue);
-  color: var(--white);
-  transition: ease-in-out .2s;
-  border: none;
-}
 
+    &:hover {
+    color: var(--lightblue);
+  }
+  
+  .categorybtn:active {
+    background-color: var(--lightblue);
+    color: var(--white);
+    transition: ease-in-out .2s;
+    border: none;
+  }
+}
 
 .category-content a {
   color: var(--lightblue);
 }
 
+main {
+  padding: 2rem;
+  border: 1px solid var(--lightergray);
+  border-top: 8px solid var(--lightblue);
+  color: var(--gray);
+      p{
+        max-width: 80%;
+      }
+      h2{
+        font-weight: 600;
+      }
+}
 
-main p {
-  max-width: 80%;
-}
-main h2 {
-  font-weight: 600;
-}
+
 .active{
   font-size: 26px;
 
@@ -72,9 +80,22 @@ main h2 {
   color: var(--white);
   transition: ease-in-out .2s;
   border: none; 
+
+      &:hover{
+        color: var(--white);
+      }
 }
-.active:hover{
-  color: var(--white);
+
+
+.penger{
+  padding: 2rem;
+  border: 1px solid var(--lightergray);
+  border-top: 8px solid var(--lightblue);
+  color: var(--gray);
+
+  a{
+    color: var(--lightblue);
+  }
 }
 
 
