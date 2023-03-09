@@ -40,7 +40,7 @@ h1 {
   margin-right: 1rem;
   cursor: pointer;
 }
-.categorybtn .categorybtn:hover {
+.categorybtn:hover {
   color: var(--lightblue);
 }
 .categorybtn .categorybtn:active {
@@ -75,8 +75,18 @@ main h2 {
   transition: ease-in-out 0.2s;
   border: none;
 }
-.active .active:hover {
+.active:hover {
   color: var(--white);
+}
+
+.penger {
+  padding: 2rem;
+  border: 1px solid var(--lightergray);
+  border-top: 8px solid var(--lightblue);
+  color: var(--gray);
+}
+.penger a {
+  color: var(--lightblue);
 }
 
 /*# sourceMappingURL=main.css.map */
